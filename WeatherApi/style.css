@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    border:border-box;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    background-image: linear-gradient(#2C3E50 , #000000);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error h3{
+    padding-left: 20px;
+    padding-top:30px;
+}
+.error i{
+    font-size: 250px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    background-size: cover;
+}
+.nav{
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.search-bar{
+    width: 55%;
+    height: 32px;
+    border: 1px solid transparent;
+    border-radius: 3px 0px 0px 3px;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+    color: #1e1e1e;
+}
+.search-button{
+    background-color: #1e1e1e;
+    color:aliceblue;
+    height: 36px;
+    border-radius:0px 3px 3px 0px;
+    border: 1px solid transparent;
+}
+.nav i{
+    font-size: 1.5rem;
+}
+.main{
+    height: 70%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location-info{
+    height: 20%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#weathercity{
+    width: auto;
+}
+.weather{
+    height: 80%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weather-main{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+.weather-main p{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.weather-icon{
+    height: 180px;
+width: 180px;
+}
+.weather-temp{
+    width: auto;
+    font-size: 50px;
+}
+.min-max{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+footer{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 500px;
+   height: 100px;
+}
+.divs{
+    height: 80px;
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divs i{
+    font-size: 25px;
+}
